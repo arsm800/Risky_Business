@@ -16,7 +16,7 @@ came in last at 0.47.  In the context of lending and credit and determine
 high-risk loans, a false negative is probably far more costly than a false 
 positive.
 
-SMOTEEENN also has the highest geometric mean: 0.66.  SMOTE is just behind at 
+SMOTEENN also has the highest geometric mean: 0.66.  SMOTE is just behind at 
 0.64, while Naïve Random Oversampling is 0.57 and Cluster Centroids is 0.53.  
 Since it scores the highest relative to the other sampling techniques, 
 SMOTEENN appears to be the strongest model.
