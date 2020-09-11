@@ -23,6 +23,18 @@ SMOTEENN appears to be the strongest model.
 
 ## Ensemble Learning
 
+This exercise also utilized two ensemble classifiers algorithms on the same 
+loan data set--the Balanced Random Forest Classifier and the Easy Ensemble
+Classifier.  
 
+For balanced accuracy (0.908 to 0.772), recall (0.88 to 0.66), and geometric 
+mean (0.91 to 0.76), the Easy Ensemble Classifier scores higher.  From the 
+Balanced Random Forest Classifier, the top features are 'total_rec_prncp' 
+(0.078), 'total_pymnt_inv' (0.0673), and 'total_pymnt' (0.0616).
+
+Generally speaking, the ensemple classifiers scored better than the resampling
+algorithms.  The Easy Ensemble Classifier scored the highest of all alogorithms
+tested.  For this particular data, classification seems to be a better model
+algorithm than regression.
 
 
